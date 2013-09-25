@@ -5,7 +5,7 @@
 angular.module('sandbox.filters', []).
   //
   // Meh.
-  filter("toString", function()
+  filter("boolString", function()
   {
     return function(bool)
     {
